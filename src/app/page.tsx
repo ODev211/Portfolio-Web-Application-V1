@@ -10,7 +10,7 @@ export default function Home() {
     // Wait for 10 seconds before showing the site
     const timer = setTimeout(() => {
       setLoading(false);
-    }, 10000); // 10000ms = 10 seconds
+    }, 2000); // 10000ms = 10 seconds
     return () => clearTimeout(timer);
   }, []);
 
